@@ -12,7 +12,7 @@ const Projetos = () => {
                 <div className="flex flex-col items-center gradiente-opacidade rounded-3xl" data-aos="fade-up">
                     <img
                         className="rounded-xl h-48 w-auto max-w-full"
-                        src="src/assets/projetos/discordBot.png"
+                        src="/projetos/discordBot.png"
                         alt="Imagem do Projeto 1"
                     />
                     <div className="max-w-xs">
@@ -32,7 +32,7 @@ const Projetos = () => {
                 <div className="flex flex-col items-center gradiente-opacidade rounded-3xl" data-aos="fade-up">
                     <img
                         className="rounded-xl h-48 w-auto max-w-full"
-                        src="src/assets/projetos/chatWS.png"
+                        src="\projetos\chatWS.png"
                         alt="Imagem do Projeto 2"
                     />
                     <div className="max-w-xs">
@@ -52,7 +52,7 @@ const Projetos = () => {
                 <div className="flex flex-col items-center gradiente-opacidade rounded-3xl" data-aos="fade-up">
                     <img
                         className="rounded-xl h-48 w-auto max-w-full"
-                        src="src/assets/projetos/todoList.png"
+                        src="\projetos\todoList.png"
                         alt="Imagem do Projeto 3"
                     />
                     <div className="max-w-xs">

@@ -23,7 +23,7 @@ const Home = () => {
         <section className="flex items-center justify-center">
           <img
             className="rounded-xl h-60 md:h-96 w-auto max-w-96"
-            src="src/assets/person.png"
+            src="/person.png"
             alt="Foto"
           />
         </section>
