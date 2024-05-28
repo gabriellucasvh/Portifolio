@@ -29,7 +29,7 @@ const Contato = () => {
           </a>
 
 
-          <a href="src/assets/cv.pdf" download="cvGabrielGoncalves.pdf">
+          <a href="/cv/cv.pdf" download="cvGabrielGoncalves.pdf">
             <div className="flex justify-center md:justify-start items-center p-2 pl-4 mb-5 rounded-xl bg-blue-700 max-w-xs md:max-w-sm hover:bg-blue-600 transition btn-bloom">
               <FontAwesomeIcon icon={faDownload} className="mr-4" size="2x" />
               <button className="px-3 py-2">Download CV</button>
