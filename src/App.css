@@ -1,3 +1,7 @@
+#root{ 
+  color: white
+}
+
 body {
   background-image: radial-gradient(circle, #09090b, #0a0b12, #080d18, #05101c, #001221);
 }

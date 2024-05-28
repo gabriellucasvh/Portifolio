@@ -11,7 +11,6 @@ import Servicos from './pages/Servicos';
 import Tecnologias from './pages/Tecnologias';
 import Projetos from './pages/Projetos';
 import Contato from './pages/Contato';
-import { ThemeProvider } from "./components/theme-provider";
 
 function App() {
   useEffect(() => {
@@ -21,11 +20,11 @@ function App() {
       delay: 100,
       easing: 'ease-in-out-quart',
     });
-    
+
   }, []);
 
   return (
-    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+    <>
       <Navbar />
       <Home />
       <Servicos />
@@ -34,7 +33,7 @@ function App() {
       <Contato />
       <NavbarPhone />
       <Footer />
-    </ThemeProvider>
+    </>
   );
 }
 
