@@ -13,6 +13,8 @@ const Tecnologias = () => {
                     { src: "/tecnologias/GitHub_.png", alt: "GitHub", label: "GitHub" },
                     { src: "/tecnologias/node.png", alt: "Node.js", label: "Node.js" },
                     { src: "/tecnologias/tailwind.png", alt: "Tailwind", label: "Tailwind" },
+                    { src: "/tecnologias/nextjs_icon_dark.svg", alt: "Next.js", label: "Next.js" },
+                    { src: "/tecnologias/typescript.svg", alt: "TypeScript", label: "TypeScript" },
                 ].map((tech, index) => (
                     <div key={index} className="flex flex-col items-center gradiente-opacidade w-40 md:w-48 h-40 md:h-48 p-4 rounded-lg shadow-md" data-aos="fade-up">
                         <img
