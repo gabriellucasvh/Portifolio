@@ -21,7 +21,7 @@ const Contato = () => {
             </div>
           </a>
 
-          <a href="https://api.whatsapp.com/send?phone=5598984381390" target='_blank'>
+          <a href="https://api.whatsapp.com/send?phone=5599991401418" target='_blank'>
             <div className="flex justify-center md:justify-start items-center p-2 pl-4 mb-5 rounded-xl border border-blue-500 max-w-xs md:max-w-sm transacao-lateral mask">
               <FontAwesomeIcon icon={faWhatsapp} className="mr-4" size="2x" />
               <button className="px-3 py-2">WhatsApp</button>
