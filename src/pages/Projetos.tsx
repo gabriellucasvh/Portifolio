@@ -8,6 +8,24 @@ const Projetos = () => {
                 Projetos
             </h1>
             <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="flex flex-col items-center gradiente-opacidade rounded-3xl" data-aos="fade-up">
+                    <img
+                        className="rounded-xl h-48 w-auto max-w-full"
+                        src="/projetos/prysmus.png"
+                        alt="Logo da Prysmus"
+                    />
+                    <div className="max-w-xs">
+                        <div className="max-w-xs flex justify-center items-center mt-4">
+                            <h2 className="text-2xl text-blue-500">Prysmus</h2>
+                        </div>
+                        <p className="text-sm mt-2 indent-5 text-break whitespace-normal break-words">
+                            Prysmus é uma agência focada na criação de landing pages, otimização de SEO e marketing digital. Ajudamos empresas a obter maior visibilidade online através de soluções personalizadas que promovem o crescimento orgânico e eficaz nas plataformas digitais.
+                        </p>
+                        <div className="flex justify-center mt-1">
+                            <span className='opacity-50 text-sm text-center mr-2 mb-10'>Next.js - Tailwind CSS - TypeScript</span>
+                        </div>
+                    </div>
+                </div>
 
                 <div className="flex flex-col items-center gradiente-opacidade rounded-3xl" data-aos="fade-up">
                     <img
@@ -32,7 +50,7 @@ const Projetos = () => {
                 <div className="flex flex-col items-center gradiente-opacidade rounded-3xl" data-aos="fade-up">
                     <img
                         className="rounded-xl h-48 w-auto max-w-full"
-                        src="\projetos\chatWS.png"
+                        src="/projetos/chatWS.png"
                         alt="Imagem do Projeto 2"
                     />
                     <div className="max-w-xs">
@@ -52,7 +70,7 @@ const Projetos = () => {
                 <div className="flex flex-col items-center gradiente-opacidade rounded-3xl" data-aos="fade-up">
                     <img
                         className="rounded-xl h-48 w-auto max-w-full"
-                        src="\projetos\todoList.png"
+                        src="/projetos/todoList.png"
                         alt="Imagem do Projeto 3"
                     />
                     <div className="max-w-xs">
