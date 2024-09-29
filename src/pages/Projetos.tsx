@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 
 const Projetos = () => {
     return (
@@ -17,6 +18,9 @@ const Projetos = () => {
                     <div className="max-w-xs">
                         <div className="max-w-xs flex justify-center items-center mt-4">
                             <h2 className="text-2xl text-blue-500">Prysmus</h2>
+                            <a href="http://prysmus.com"target='_blank' rel='noopener noreferrer'>
+                            <FontAwesomeIcon icon={faUpRightFromSquare} className="text-md mt-1 ml-3 animate-pulse" />
+                            </a>
                         </div>
                         <p className="text-sm mt-2 indent-5 text-break whitespace-normal break-words">
                             Prysmus é uma agência focada na criação de landing pages, otimização de SEO e marketing digital. Ajudamos empresas a obter maior visibilidade online através de soluções personalizadas que promovem o crescimento orgânico e eficaz nas plataformas digitais.
@@ -36,7 +40,7 @@ const Projetos = () => {
                     <div className="max-w-xs">
                         <div className="max-w-xs flex justify-center items-center mt-4">
                             <h2 className="text-2xl text-blue-500">Discord Bot</h2>
-                            <a href="https://github.com/gabriellucasvh/BotADM">
+                            <a href="https://github.com/gabriellucasvh/BotADM" target='_blank' rel='noopener noreferrer'>
                                 <FontAwesomeIcon icon={faGithub} className="text-xl mt-1 ml-3 animate-pulse" />
                             </a>
                         </div>
@@ -56,7 +60,7 @@ const Projetos = () => {
                     <div className="max-w-xs">
                         <div className="max-w-xs flex justify-center items-center">
                             <h2 className="text-2xl text-blue-500 mt-4">Chat Online</h2>
-                            <a href="https://github.com/gabriellucasvh/Chat" className="mt-1">
+                            <a href="https://github.com/gabriellucasvh/Chat" className="mt-1" target='_blank' rel='noopener noreferrer'>
                                 <FontAwesomeIcon icon={faGithub} className="text-xl mt-4 ml-3 animate-pulse" />
                             </a>
                         </div>
@@ -76,7 +80,7 @@ const Projetos = () => {
                     <div className="max-w-xs">
                         <div className="max-w-xs flex justify-center items-center">
                             <h2 className="text-2xl text-blue-500 mt-4">ToDo</h2>
-                            <a href="https://github.com/gabriellucasvh/ToDo" className="mt-1">
+                            <a href="https://github.com/gabriellucasvh/ToDo" className="mt-1" target='_blank' rel='noopener noreferrer'>
                                 <FontAwesomeIcon icon={faGithub} className="text-xl mt-4 ml-3 animate-pulse" />
                             </a>
                         </div>
