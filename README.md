@@ -1,4 +1,4 @@
-# Portfólio de Gabriel
+# Portfólio
 
 Bem-vindo ao meu portfólio! Aqui você encontrará uma mostra do meu trabalho como desenvolvedor front-end.
 
