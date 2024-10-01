@@ -1,37 +1,36 @@
-# Gabriel's Portfolio
-Bem-vindo ao meu portfólio de desenvolvimento! Aqui você encontrará uma coleção dos meus projetos e contribuições, destacando minhas habilidades em Análise e Desenvolvimento de Sistemas, com foco em front-end.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-### Link para o portifólio aqui: [Gabriel Gonçalves](https://gabriellucasvh.vercel.app/)
+## Getting Started
 
-## Sobre Mim
-Olá! Eu sou Gabriel, um desenvolvedor apaixonado por criar interfaces de usuário intuitivas e funcionais. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas, e estou sempre buscando aprender e aprimorar minhas habilidades.
+First, run the development server:
 
-## Tecnologias e Ferramentas
-Aqui estão algumas das tecnologias e ferramentas com as quais tenho experiência:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-- Linguagens de Programação: JavaScript, HTML, CSS
-- Frameworks e Bibliotecas: React, Vue.js
-- Ferramentas de Versionamento: Git, GitHub
-- Outras Ferramentas: Visual Studio Code, Figma, Vite
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Projetos
-É possível ver meus projetos em destaque no [portifólio/Projetos](https://gabriellucasvh.vercel.app/)
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Tecnologias Utilizadas no Projeto:
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-- React
-- TypeScript
-- JavaScript
-- Html
-- Css
-- Tailwind
+## Learn More
 
-## Como Contribuir
-Se você deseja contribuir para algum dos meus projetos, fique à vontade para fazer um fork do repositório, criar uma nova branch e enviar um pull request. Toda ajuda é bem-vinda!
+To learn more about Next.js, take a look at the following resources:
 
-## Contato
-Você pode me encontrar em:
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-- [LinkedIn](https://www.linkedin.com/in/gabriellucasvh/)
-- E-mail: gabriellucasvh@gmail.com
-- É possível baixar o cv em [portifólio/Contato](https://gabriellucasvh.vercel.app/)
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
