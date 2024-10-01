@@ -1,8 +1,9 @@
 # Portfólio
 
 Bem-vindo ao meu portfólio! Aqui você encontrará uma mostra do meu trabalho como desenvolvedor front-end.
+🚀 [Acesse por aqui :)](https://gabriellucasvh.vercel.app/) 🚀
 
-## Tecnologias
+## Tecnologias utilizadas neste projeto
 
 - **Next.js**
 - **TypeScript**
