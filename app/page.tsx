@@ -12,6 +12,7 @@ import Servicos from '@/src/components/Servicos';
 import Tecnologias from '@/src/components/Tecnologias';
 import Projetos from '@/src/components/Projetos';
 import Contato from '@/src/components/Contato';
+import Particles from '@/components/ui/particles';
 
 function App() {
   useEffect(() => {
@@ -26,6 +27,7 @@ function App() {
 
   return (
     <div className='bg-slate-950 font-sans text-white'>
+      <Particles className='fixed z-0 min-w-full h-full' />
       <Navbar />
       <Inicio />
       <Servicos />
