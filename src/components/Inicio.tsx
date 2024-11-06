@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Inicio = () => {
   return (
-    <div className="relative w-full min-h-screen flex items-center justify-center pb-5 -mt-24 md:mt-1" id="sobre">
+    <div className="relative w-full min-h-screen flex items-center justify-center pb-5 -mt-24 md:-mt-14" id="sobre">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl w-full p-4">
         <section className="p-2 text-justify">
           <h1 className="font-bold text-3xl md:text-5xl flex justify-center mb-4 text-blue-500 mt-32">
@@ -25,7 +25,7 @@ const Inicio = () => {
           </p>
         </section>
 
-        <section className="flex items-center justify-center">
+        <section className="flex items-center justify-center md:mt-52">
           <Image
             className="rounded-xl h-60 md:h-96 w-auto max-w-96"
             src="/person.png"
