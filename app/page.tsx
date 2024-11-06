@@ -25,7 +25,7 @@ function App() {
   }, []);
 
   return (
-    <div className='bg-gradient-to-b from-blue-950 via-black to-blue-950 font-sans text-white'>
+    <div className='bg-slate-950 font-sans text-white'>
       <Navbar />
       <Inicio />
       <Servicos />
