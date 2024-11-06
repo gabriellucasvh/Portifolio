@@ -9,7 +9,7 @@ const Projetos = () => {
     <div id="projetos" className="container mx-auto px-6 pt-10">
       <h1
         className="flex justify-center font-medium text-4xl mb-16 mt-14"
-        data-aos="fade-down"
+        
       >
         Projetos
       </h1>
@@ -17,7 +17,7 @@ const Projetos = () => {
         <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl">
           <div
             className="flex flex-col items-center bg-blue-950/40 shadow-lg rounded-lg p-6 max-w-sm"
-            data-aos="fade-up"
+            
           >
             <Image
               className="rounded-xl"
@@ -56,7 +56,7 @@ const Projetos = () => {
 
           <div
             className="flex flex-col items-center bg-blue-950/40 shadow-lg rounded-lg p-6 max-w-sm"
-            data-aos="fade-up"
+            
           >
             <Image
               className="rounded-xl"
@@ -92,7 +92,7 @@ const Projetos = () => {
 
           <div
             className="flex flex-col items-center bg-blue-950/40 shadow-lg rounded-lg p-6 max-w-sm"
-            data-aos="fade-up"
+            
           >
             <Image
               className="rounded-xl"
@@ -129,7 +129,7 @@ const Projetos = () => {
 
           <div
             className="flex flex-col items-center bg-blue-950/40 shadow-lg rounded-lg p-6 max-w-sm"
-            data-aos="fade-up"
+            
           >
             <Image
               className="rounded-xl"

@@ -52,7 +52,7 @@ const Contato = () => {
 
         <section className="flex flex-col items-center justify-center pointer-events-none">
           <Image
-            data-aos="fade-up"
+            
             className="rounded-3xl"
             src="/whatsapp.png"
             width={300}
