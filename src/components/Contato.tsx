@@ -1,7 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faDownload } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faDownload, faQrcode } from "@fortawesome/free-solid-svg-icons";
 import { faWhatsapp, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
+import Image from "next/image";
 
 const Contato = () => {
   return (
@@ -49,13 +50,16 @@ const Contato = () => {
           </div>
         </section>
 
-        <section className="flex items-center justify-center">
-          {/* <img
+        <section className="flex flex-col items-center justify-center pointer-events-none">
+          <Image
             data-aos="fade-up"
-            className="rounded-3xl h-48 md:h-96 w-auto max-w-full bg-blue-950/50"
-            src="public/Gb.png"
+            className="rounded-3xl"
+            src="/whatsapp.png"
+            width={300}
+            height={300}
             alt="Foto"
-          /> */}
+          />
+          <span className=" m-1 p-2 text-green-400">Whatsapp</span>
         </section>
       </div>
     </div>
