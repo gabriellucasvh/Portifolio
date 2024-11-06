@@ -16,7 +16,7 @@ import Contato from '@/src/components/Contato';
 function App() {
   useEffect(() => {
     AOS.init({
-      duration: 1000,
+      duration: 500,
       once: false,
       delay: 100,
       easing: 'ease-in-out-quart',
