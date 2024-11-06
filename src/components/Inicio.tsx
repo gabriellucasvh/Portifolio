@@ -5,10 +5,10 @@ const Inicio = () => {
     <div className="relative w-full min-h-screen flex items-center justify-center pb-5 -mt-24 md:-mt-14" id="sobre">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl w-full p-4">
         <section className="p-2 text-justify">
-          <h1 className="font-bold text-3xl md:text-5xl flex justify-center mb-4 text-blue-500 mt-32">
+          <h1 className="font-bold text-3xl md:text-4xl flex justify-center mb-4 text-blue-500 mt-32">
             Gabriel Gonçalves
           </h1>
-          <h2 className="font-bold text-xl sm:text-3xl md:text-3xl flex justify-center mb-10">
+          <h2 className="font-bold text-xl sm:text-3xl md:text-2xl flex justify-center mb-10">
             &lt; Front-end Developer &gt;
           </h2>
           <p className="indent-5 text-break">
