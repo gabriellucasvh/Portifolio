@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
   return (
     <>
       {/* Navbar para desktop */}
-      <nav className="fixed top-0 left-0 w-full backdrop-blur-md bg-cyan-950/20 shadow-sm shadow-cyan-950 z-10 hidden md:block">
+      <nav className="fixed top-0 left-0 w-full backdrop-blur-md bg-blue-950/20 shadow-lg shadow-cyan-900/50 border-b border-cyan-600 z-10 hidden md:block">
         <div className="flex justify-center p-4 space-x-10">
           <a
             href="#"
