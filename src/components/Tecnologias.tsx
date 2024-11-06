@@ -2,11 +2,11 @@ import Image from "next/image";
 
 const Tecnologias = () => {
     return (
-        <div id="tecnologias" className="pt-16 md:pt-20 mx-auto container">
+        <div id="tecnologias" className="pt-16 md:pt-20 mx-auto container md:w-8/12">
             <h1 className="flex justify-center font-medium text-2xl md:text-4xl mb-16 md:mb-32 text-center" data-aos="fade-down">
                 Linguagens e Tecnologias
             </h1>
-            <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+            <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 justify-items-center gap-8">
                 {[
                     { src: "/tecnologias/javascript.svg", alt: "JavaScript", label: "JavaScript" },
                     { src: "/tecnologias/react.svg", alt: "React", label: "React" },
